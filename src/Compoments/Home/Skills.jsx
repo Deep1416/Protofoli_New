@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Skills() {
   return (
-    <div className='text-[#cd5ff8] text-4xl mb-5'>
+    <div className='text-[#007bff] text-4xl mb-5'>
       <Typewriter
       options={{
         strings: [

@@ -20,9 +20,6 @@
     font-size: 45px;
 }
 
-
-
-
 .font{
     font-family: "Caveat", cursive;
     font-weight: 600;
@@ -33,3 +30,13 @@
   font-weight: 800;
   font-style: normal;
 }
+
+@keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  

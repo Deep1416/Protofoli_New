@@ -1,20 +1,9 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { PixiPlugin } from "gsap/PixiPlugin";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
-  useEffect(() => {
-    gsap.registerPlugin(PixiPlugin);
-    gsap.from("nav", {
-      duration: 1,
-      y: -50,
-      opacity: 0,
-      ease: "power3.out",
-    });
-  }, []);
-
   return (
-    <header className="bg-[#B3A398]">
+    <header className="bg-[#FFD1DC]">
       <nav className="p-4 max-w-screen-xl m-auto">
         <div className="flex justify-between items-center px-10">
           <div className="italic">
@@ -22,10 +11,18 @@ function Header() {
           </div>
           <div>
             <ul className="flex justify-center items-center gap-10 text-xl">
-              <li>About</li>
-              <li>Skills</li>
-              <li>Project</li>
-              <li>Contact</li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/skills">Skills</Link>
+              </li>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
