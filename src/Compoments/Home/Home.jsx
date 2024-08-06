@@ -4,7 +4,7 @@ import Skills from './Skills';
 
 function Home() {
   return (
-    <section className='bg-[#B4B4B8]'>
+    <section className='bg-[#B0E0E6]'>
       <div className='max-w-screen-xl mx-auto p-4'>
         <div className='flex mt-24 justify-center px-10'>
           <div className='w-1/2'>

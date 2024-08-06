@@ -5,7 +5,7 @@ import javascript from "../../assets/images/12javascript.png";
 import crome from "../../assets/images/crome.png";
 function Projects() {
   return (
-    <section className="bg-gray-500">
+    <section className="bg-[#B0E0E6]">
       <div className="max-w-screen-xl p-4 mx-auto  ">
         <h1 className="text-6xl text-center mt-24 mb-6">Projects</h1>
         <div className=" mt-10 flex items-center gap-16 px-2 flex-wrap justify-center">

@@ -4,7 +4,7 @@ import { IoLogoFigma } from "react-icons/io5";
 
 function Skills() {
   return (
-    <section className="max-w-screen-xl m-auto h-screen p-4">
+    <section className=" m-auto h-screen p-4 bg-[#B0E0E6]">
       <div className="text-center py-2 p-8 mt-24">
         <h1 className="text-6xl mb-4">
           <b>Skills.</b>

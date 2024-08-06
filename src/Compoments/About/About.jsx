@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 function About() {
   return (
-    <section className="bg-gray-400">
+    <section className="bg-[#B0E0E6]">
       <div className="max-w-screen-xl mx-auto h-screen p-4">
         <div className="flex items-center mt-24 px-10">
           <div className="w-1/2">
